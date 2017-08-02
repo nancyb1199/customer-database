@@ -1,0 +1,35 @@
+body {
+  background-color: white;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  margin: 50px auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.person {
+
+}
+.person .img{
+
+  }
+
+.person .name{
+  text-decoration: underline;
+  text-decoration-color: #36AC72;
+}
+
+.person .email{
+  text: #B7B7B7;
+}
