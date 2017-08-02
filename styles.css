@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  font-family: 'Raleway', serif;
 }
 .container {
   display: flex;
@@ -21,6 +22,7 @@ h2 {
 .person {
   text-align: center;
   width: 25%;
+  border: 5px;
 }
 .person img{
   height: 250px;

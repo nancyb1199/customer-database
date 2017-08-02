@@ -13,8 +13,9 @@ for (let i = 0; i < customers.results.length; i++){
     <div class="address">${customers.results[i].location.street}
     <br>
     <span>${customers.results[i].location.city} ${customers.results[i].location.state} ${customers.results[i].location.postcode}</span></div>
-    <div class="phone" ${customers.results[i].phone}
-    </div>
+
+    <div class="phone"> ${customers.results[i].phone}</div>
+</div>
   `;
 newPerson.innerHTML += box;
 } /* i loop */
