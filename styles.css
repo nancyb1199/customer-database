@@ -4,7 +4,7 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
-  width: 800px;
+  justify-content: space-around;
   margin: 50px auto;
 }
 
@@ -19,17 +19,25 @@ h2 {
 }
 
 .person {
-
+  text-align: center;
+  width: 25%;
 }
-.person .img{
-
+.person img{
+  height: 250px;
   }
 
 .person .name{
+  text-transform: uppercase;
   text-decoration: underline;
   text-decoration-color: #36AC72;
 }
 
 .person .email{
+  text-transform: uppercase;
   text: #B7B7B7;
+}
+
+.person .address{
+  text-transform: capitalize;
+
 }

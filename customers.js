@@ -73,26 +73,3 @@ const customers =
 {"name":"SSN","value":"759-73-7891"},"picture":
 {"large":"https://randomuser.me/api/portraits/women/41.jpg","medium":"https://randomuser.me/api/portraits/med/women/41.jpg","thumbnail":"https://randomuser.me/api/portraits/thumb/women/41.jpg"},"nat":"US"}],"info":
 {"seed":"b98b46987e52ab98","results":12,"page":1,"version":"1.1"}};
-
-/* start coding */
-console.log(customers.results);
-
-let newPerson = document.querySelector(".container");
-
-
-for (let i = 0; i < customers.results.length; i++){
-
-  let box = `
-    <div class="person">
-    <img src="${customers.results[i].picture.large}">
-    <div class="name"><span>${customers.results[i].name.first} ${customers.results[i].name.last}</span></div>
-    <div class="email">${customers.results[i].email}</div>
-    <div class="address">${customers.results[i].location.street}
-    <br>
-    <span>${customers.results[i].location.city} ${customers.results[i].location.state} ${customers.results[i].location.postcode}</span></div>
-    <div class="phone" ${customers.results[i].phone}
-    </div>
-  `;
-console.log(box);
-newPerson.innerHTML += box;
-} /* i loop */
