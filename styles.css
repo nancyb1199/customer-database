@@ -14,15 +14,17 @@ img {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 32px;
   text-align: center;
   margin-bottom: 0;
 }
 
 .person {
   text-align: center;
+  line-height: 1.5;
   width: 25%;
   border: 5px;
+  margin-bottom: 30px;
 }
 .person img{
   height: 250px;
@@ -36,10 +38,16 @@ h2 {
 
 .person .email{
   text-transform: uppercase;
-  text: #B7B7B7;
+  color: #B7B7B7;
 }
 
 .person .address{
+  font-size: 90%;
   text-transform: capitalize;
+  color: #848484;
+}
 
+.person .phone{
+  font-size: 90%;
+  color: #848484;
 }
